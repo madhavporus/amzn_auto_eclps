@@ -32,6 +32,7 @@ public class VerifyLogin{
 	@AfterTest
 	public void endAllTests() {
 		driver.close();
+		System.out.println("***Test Compete! Please check the test result!***");
 	}
 	
 }
