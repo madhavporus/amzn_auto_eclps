@@ -27,14 +27,14 @@ public class VerifyLogin{
 	//lpage.clickOnYourWatchList();
 	//lpage.selectMenuItemByName("Your Watchlist");
 	lpage.selectMenuItemByName("Your Prime Video");
+	
 	}
 	
 	@AfterTest
 	public void endAllTests() {
-		driver.close();
+//		driver.close();
 		System.out.println("+++Test Compete! Please check the test result!+++");
 	}
 	
 }
 
-//("ninjaqa1@gmail.com", "doublehelix123")
